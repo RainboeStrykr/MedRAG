@@ -35,8 +35,6 @@ For questions that span multiple documents, the system retrieves and synthesises
 
 ## Architecture
 
-![diagram](screenshots/medrag-architecture-diagram.png)
-
 ```
 User Query
     │
