@@ -1,0 +1,106 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# mypy / pyright
+.mypy_cache/
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ─── MedRAG — Generated Index Files ──────────────────────────────────────────
+# These are large binary files rebuilt by: python indexer.py
+backend/index/
+
+# Eval results (generated output, not source)
+eval/eval_results.json
+
+# ─── Machine Learning / Model Weights ────────────────────────────────────────
+# Cached HuggingFace / SentenceTransformer model downloads
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+~/.cache/huggingface/
+
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ─── Node / Next.js ──────────────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+.next/
+out/
+
+# Next.js cache
+.swc/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# npm / yarn / pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+
+# ─── OS & Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ─── Misc ─────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+.vercel

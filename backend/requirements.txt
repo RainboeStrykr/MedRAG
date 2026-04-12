@@ -1,0 +1,16 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.7.4
+python-dotenv==1.0.1
+
+# Embeddings & Vector Store
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+rank-bm25==0.2.2
+numpy>=1.24
+
+# LLM (Ollama)
+ollama>=0.6.1
+
+# Utilities
+tqdm==4.66.5
