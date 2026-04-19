@@ -8,6 +8,8 @@
 
 MedRAG is a fully local, agentic RAG system that lets anyone ask natural-language questions about AI in Healthcare and receive **cited, reasoned answers** grounded in a curated set of 60 expert documents (research papers, market reports, blogs, newsletters). Every response is produced by a 3-agent pipeline — a Decomposer, a Reasoner, and a Critic — and every factual claim is linked to the exact source document that supports it.
 
+[Watch the demo](https://drive.google.com/file/d/11PcWJr1j021Q3Gc_mWnXIGV4tpSwMe5d/view?usp=sharing)
+
 ---
 
 ## Screenshots
